@@ -1,17 +1,18 @@
+import { Routes, Route } from 'react-router-dom'
 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Home from './pages/home'
+import Sobre from './pages/sobre'
+
 
 function App() {
 
   return (
-    <>
-      <h1>Aula Introdução VITE JS</h1>
-      <h2>Preparo do projeto</h2>
-      <h3>Esilização</h3>
-      <p>Entendendo uso de css dentro do projeto</p>
-      </>
+
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/sobre' element={<Sobre />} />
+    </Routes>
+
   )
 }
 
