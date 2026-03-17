@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid #00f; */
+    max-width: 1240px;
+    align-items: center;
+}
+
+.atv {
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+}
+
+.txt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    margin-top: 10rem;
+}

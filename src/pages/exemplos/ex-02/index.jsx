@@ -17,7 +17,7 @@ function Exemplo02() {
       </p>
       <div className={styles.containerBlocos}>
         <div className={styles.brancoBranco}></div>
-        <div className={styles.barncoCinza}></div>
+        <div className={styles.brancoCinza}></div>
         <div className={styles.pretoPreto}></div>
         <div className={styles.pretoCinza}></div>
       </div>
