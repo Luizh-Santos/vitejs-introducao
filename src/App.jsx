@@ -20,7 +20,6 @@ import Atividade02 from './pages/atividades/atv-02';
 import Atividade03 from './pages/atividades/atv-03';
 import Atividade04 from './pages/atividades/atv-04';
 import Atividade05 from './pages/atividades/atv-05';
-import Atividade06 from './pages/atividades/atv-06';
 
 function App() {
 
